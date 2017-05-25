@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadScientistLab", "MadScien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadScientistLab.Tests", "MadScientistLab.Tests\MadScientistLab.Tests.csproj", "{576FF53E-A4DA-4FD1-A10C-4A45A620CBCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadScientistLab.Api", "MadScientistLab.Api\MadScientistLab.Api.csproj", "{C49A5257-B011-4454-B692-6C4F4B5390D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadScientistLab.Laboratory", "MadScientistLab.Laboratory\MadScientistLab.Laboratory.csproj", "{005B101C-0D54-4474-87C0-0BF6FCD8E667}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{576FF53E-A4DA-4FD1-A10C-4A45A620CBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{576FF53E-A4DA-4FD1-A10C-4A45A620CBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{576FF53E-A4DA-4FD1-A10C-4A45A620CBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49A5257-B011-4454-B692-6C4F4B5390D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C49A5257-B011-4454-B692-6C4F4B5390D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C49A5257-B011-4454-B692-6C4F4B5390D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C49A5257-B011-4454-B692-6C4F4B5390D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005B101C-0D54-4474-87C0-0BF6FCD8E667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005B101C-0D54-4474-87C0-0BF6FCD8E667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005B101C-0D54-4474-87C0-0BF6FCD8E667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005B101C-0D54-4474-87C0-0BF6FCD8E667}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

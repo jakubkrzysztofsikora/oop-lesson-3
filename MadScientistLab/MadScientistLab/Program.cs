@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using MadScientistLab.Cli;
-using MadScientistLab.Configuration;
-using MadScientistLab.LabInventory;
-using MadScientistLab.LabInventory.Animals;
-using MadScientistLab.Validators;
+using MadScientistLab.Laboratory.Cli;
+using MadScientistLab.Laboratory.Configuration;
+using MadScientistLab.Laboratory.LabInventory.Animals;
+using MadScientistLab.Laboratory.Validators;
 
 namespace MadScientistLab
 {
@@ -13,7 +12,7 @@ namespace MadScientistLab
     {
         private static readonly ICommandInterface Cli = new CommandInterface();
         private static readonly Func<List<Animal>, IAnimalValidator> ValidatorFactory = animalList => new AnimalValidator(Cli, animalList);
-        private static readonly Laboratory Lab = new Laboratory(Cli, ValidatorFactory);
+        private static readonly Laboratory.LabInventory.Laboratory Lab = new Laboratory.LabInventory.Laboratory(Cli, ValidatorFactory);
         private static readonly CommandParser CommandParser = new CommandParser();
 
         static void Main(string[] args)

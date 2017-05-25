@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using MadScientistLab.Cli;
+using MadScientistLab.Laboratory.Cli;
 
 namespace MadScientistLab.Tests.TestStubs
 {

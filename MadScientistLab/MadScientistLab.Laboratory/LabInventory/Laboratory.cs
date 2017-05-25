@@ -71,12 +71,12 @@ namespace MadScientistLab.Laboratory.LabInventory
             new DeleteAnimalCommand(_animals, GetAnimalByName(nameOfAnimal), _cli).Execute();
         }
 
-        private Animal GetAnimalByName(string name)
+        public Animal GetAnimalByName(string name)
         {
             return _animals.SingleOrDefault(GetAnimalByNamePredicate(name));
         }
 
-        private Func<Animal, bool> GetAnimalByNamePredicate(string nameOfAnimal)
+        public Func<Animal, bool> GetAnimalByNamePredicate(string nameOfAnimal)
         {
             return animal => animal.Name.Equals(nameOfAnimal);
         }

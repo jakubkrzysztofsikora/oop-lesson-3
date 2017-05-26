@@ -19,17 +19,17 @@ namespace MadScientistLab.Api
 
         public void DisplayBark(string name)
         {
-            throw new NotImplementedException();
+            Message = $"{name} woof ";
         }
 
         public void DisplayPurr(string name)
         {
-            throw new NotImplementedException();
+            Message = $"{name} meow ";
         }
 
         public void DisplaySqueak(string name)
         {
-            throw new NotImplementedException();
+            Message = $"{name} squeak ";
         }
     }
 }
